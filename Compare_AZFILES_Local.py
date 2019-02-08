@@ -21,4 +21,12 @@ def Diff(local_files,files_incloud):
     return(list(set(local_files) - set(files_incloud)))
 
 print("Files NOT in the Cloud FILESHARE are: ")
-print(Diff(local_files,files_incloud))
+result=(Diff(local_files,files_incloud))
+print (result)
+print("\n")
+print("Matching Strings:")
+print("\n")
+for item in result:
+        if "text" in item:
+                print item
+
