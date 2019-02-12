@@ -1,6 +1,5 @@
 #ref = https://stackoverflow.com/questions/49387388/how-do-i-delete-a-folderblob-inside-an-azure-container-using-delete-blob-metho
 from azure.storage.blob import BlockBlobService
-#import azure.storage.blob
 block_blob_service = BlockBlobService(account_name='yraccountname', account_key='accountkey')
 print("Retreiving blobs in specified container...")
 blob_list=[]
