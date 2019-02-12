@@ -8,7 +8,7 @@ Is a script allowing you to compare the content of a local directory(ex: “C:\U
 
 ## How to list the content of a Blob Container, then delete a specific blob using Azure Blob Storage python SDK:
 
-### del-blob.py
+### del-blob.py:
 
 The del-blob.py script allows you to list the blobs within a specific container(“containername”) then deletes a blob of your choice within it.
 There are two types of blobs in this container, blobs within a virtual folder/path named “Virtual-Folder”, ex: “Virtual-Folder/Boards.png”, and blobs in the root of the container ex: “storage2.gif”
