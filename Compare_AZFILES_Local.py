@@ -1,3 +1,4 @@
+# ref = https://stackoverflow.com/questions/54558565/monitor-status-of-files-in-cloud-endpoint-storage-account-vs-server-endpoint/54563112#54563112
 import os
 import azure.storage.common
 from azure.storage.common import CloudStorageAccount
