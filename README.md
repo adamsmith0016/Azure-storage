@@ -42,35 +42,32 @@ Result example:
 ```python
 Retreiving blobs in specified container...
 ************************Local files:************************
-['compare-upload-delete.py', 'test.txt', 'test1.txt', 'test2.txt', 'test3.txt']
+['delete.py', 'example', 'test.txt', 'test.txt1', 'test.txt2', 'test.txt3']
+('Number of Local Files:', 6)
 
 
 
-************************Blobs currently in the container:************************
-Virtual-Folder/2019-02-06 10_43_04-Access Control - Microsoft Azure.png
+('************************Blobs currently in the container:', 'container name', '************************')
+Virtual-Folder/Access Control - Microsoft Azure.png
 compare-upload-delete.py
 compareblob_loc.py
 sol.py
 test.txt
+('Number of files in the container:', 5)
 
 
 
 ************************ Blobs NOT in the Azure Blob Storage are: ************************
-['test3.txt', 'test1.txt', 'test2.txt']
-('File: ', 'test3.txt', 'was uploaded')
-('File: ', 'test1.txt', 'was uploaded')
-('File: ', 'test2.txt', 'was uploaded')
+['test.txt3', 'test.txt2', 'test.txt1', 'example']
+Would you like to upload the files ? yes or no: no
 
 
 
-************************Blobs currently in the container:************************
-Virtual-Folder/2019-02-06 10_43_04-Access Control - Microsoft Azure.png
+('************************Blobs currently in the container:', 'azcopy-test', '************************')
+Virtual-Folder/Access Control - Microsoft Azure.png
+compare-upload-delete.py
+compareblob_loc.py
 sol.py
 test.txt
-test1.txt
-test2.txt
-test3.txt
-('File: ', 'test.txt', 'Was Removed from Local DIR!')
-('File: ', 'test1.txt', 'Was Removed from Local DIR!')
-('File: ', 'test2.txt', 'Was Removed from Local DIR!')
-('File: ', 'test3.txt', 'Was Removed from Local DIR!')```
+Would you like to delete local files? yes or no ?no
+No files will be deleted```
